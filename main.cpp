@@ -9,7 +9,6 @@
 **/
 
 #include "CS3113/cs3113.h"
-#include <math.h>
 
 constexpr int SCREEN_WIDTH = 1200,
 SCREEN_HEIGHT = 800,
