@@ -235,6 +235,8 @@ void render()
 }
 
 
+void shutdown() { CloseWindow(); }
+
 
 int main(void)
 {
@@ -247,6 +249,7 @@ int main(void)
         render();
     }
 
+    shutdown();
 
     return 0;
 }
